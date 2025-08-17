@@ -32,7 +32,7 @@ async function main() {
     const modelsCount = await loadModels(client);
 
     startupReport({
-        name: "Kanna Bot",
+        name: "VirusDiscordHandler",
         prefix: prefixCount,
         slash: slashCount,
         events: eventsCount,
