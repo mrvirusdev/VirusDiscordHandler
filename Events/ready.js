@@ -5,7 +5,7 @@ export default {
     once: true,
     execute(client) {
         client.user.setPresence({
-            activities: [{ name: "Kanna Bot V2", type: 0 }],
+            activities: [{ name: "VirusDiscordHandler", type: 0 }],
             status: "online"
         });
         
